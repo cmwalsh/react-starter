@@ -1,0 +1,41 @@
+{
+  "name": "react-starter",
+  "version": "1.0.0",
+  "description": "A starting point for React apps",
+  "main": "server.js",
+  "scripts": {
+    "start": "babel-node server.js",
+    "watch": "nodemon --exec babel-node -- server.js",
+    "test": "mocha --compilers js:babel/register"
+  },
+  "author": "Craig Walsh",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^5.8.23",
+    "body-parser": "^1.14.1",
+    "colors": "^1.1.2",
+    "express": "^4.13.3",
+    "morgan": "^1.6.1",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-router": "^1.0.0-rc3",
+    "serve-favicon": "^2.3.0",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "browserify": "^11.2.0",
+    "del": "^2.0.2",
+    "expect.js": "^0.3.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-if": "^2.0.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-streamify": "^1.0.2",
+    "gulp-uglify": "^1.4.2",
+    "gulp-util": "^3.0.6",
+    "mocha": "^2.3.3",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.4.0"
+  }
+}

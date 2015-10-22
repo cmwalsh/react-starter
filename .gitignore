@@ -1,0 +1,15 @@
+# WebStorm
+.idea
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules
+bower_components
+
+# Compiled files
+public/js/*.js
+public/css/*.css
